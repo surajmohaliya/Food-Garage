@@ -1,0 +1,91 @@
+[{
+    "restaurentThemeImage": "images/res1.webp",
+    "name": "Bawarchi",
+    "themeLine": "Special Biryani, Indian, Chinese & North Indian",
+    "ratings": 2.5,
+    "code": "r_01"
+},
+{
+    "restaurentThemeImage": "images/res2.webp",
+    "name": "MVS Biryani point",
+    "themeLine": "Biryani,Chinese,Indian & Fast food",
+    "ratings": 1,
+    "code": "r_02"
+},
+{
+    "restaurentThemeImage": "images/res3.webp",
+    "name": "Bawarchi",
+    "themeLine": "Special Biryani,indian,chines&North Indian",
+    "ratings": 3.5,
+    "code": "r_03"
+},
+{
+    "restaurentThemeImage": "images/res4.webp",
+    "name": "Shiva Dhaba",
+    "themeLine": "Indian,Non-Veg & All Type Of Foods ",
+    "ratings": 4,
+    "code": "r_04"
+},
+{
+    "restaurentThemeImage": "images/res5.webp",
+    "name": "Burger Kings ",
+    "themeLine": "Americian,FastFood ",
+    "ratings": 4.5 ,
+    "code": "r_05"
+},
+{
+    "restaurentThemeImage": "images/res6.webp",
+    "name": "Bombay Juice",
+    "themeLine": "Chat, Chinese, Juice",
+    "ratings": 4,
+    "code": "r_06"
+},
+{
+    "restaurentThemeImage": "images/res7.webp",
+    "name": "Mandi King ",
+    "themeLine": "Mandi,Tandoori,Arabian,North Indian ",
+    "ratings": 3,
+    "code": "r_07"
+},
+{
+    "restaurentThemeImage": "images/res8.webp",
+    "name": "CreamStone ",
+    "themeLine": "Ice Creams,Desserts ",
+    "ratings": 3.5,
+    "code": "r_08"
+},
+{
+    "restaurentThemeImage": "images/res9.webp",
+    "name": "PizzaHut ",
+    "themeLine": "Varies types of Pizzas ",
+    "ratings": 4,
+    "code": "r_09"
+},
+{
+    "restaurentThemeImage": "images/res2.webp",
+    "name": "New Astoria Restaurant",
+    "themeLine": "Chinese, Biryani ",
+    "ratings": 3,
+    "code": "r_10"
+},
+{
+    "restaurentThemeImage": "images/res3.webp",
+    "name": "Crystal Restaurant ",
+    "themeLine": "Biryani, North Indian ",
+    "ratings": 2.5 ,
+    "code": "r_11"   
+},
+{
+    "restaurentThemeImage": "images/res4.webp",
+    "name": "Imperial Multi-Cuisine Restaurant ",
+    "themeLine": "Biryani, Chinese",
+    "ratings": 4.5    ,
+    "code": "r_12"
+},
+{
+    "restaurentThemeImage": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/gop8zmyxbzfcdwwnsegm",
+    "name": "Istah Shawarma",
+    "themeLine": "Arabian, Lebanese",
+    "ratings": 4.5    ,
+    "code": "r_13"
+}]

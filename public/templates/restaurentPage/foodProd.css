@@ -1,0 +1,142 @@
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+
+.banner_wrapper{
+    height: 17rem;
+    background-color: var(--bs-gray-900);
+    position: sticky;
+    inset: 0 0 auto 0;
+    z-index: 99;
+    
+}
+.squeezeHeight{
+    height: 13rem;
+    transition: all 0.4s ease;
+}
+
+.restro_img{
+    width: 250px;   
+}
+
+.banner_wrapper > .container-fluid{
+    width: 85%;
+}
+
+.restro_info p{
+    font-size: 14px;
+    color: var(--bs-gray-500);
+}
+
+
+.restro-rating-dtime-cost > div >div:first-child{
+    font-weight: bold;
+}
+
+/* text below rating delivery time and price */
+.restro-rating-dtime-cost > div >div:nth-child(2){
+    font-weight: normal;
+    font-size: 13px;
+    color: var(--bs-gray-500);
+
+}
+
+.restro_offer > div {
+    padding: 2rem 1.5rem 1rem;
+}
+
+.restro_offer .icon{
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+.restro_offer > div > div > div{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    padding-bottom: 12px;
+} 
+
+
+.offerStyle{
+    display: inline-block;
+    background-color: var(--bs-gray-900);
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: -13px;
+    left: -6px;
+}
+
+.search_favourite_container{
+    bottom: -2rem;
+    left: 33%;
+}
+
+
+.checkbox_container label:hover{
+    color: green;
+}
+.checkbox_container .btn:hover{
+    color: red;
+}
+
+
+.card-one{
+    position: fixed;
+    margin-left: 1rem;
+    top: calc(18rem-0);
+    left: 7%;
+    width: 200px;
+    border-right: 1px solid grey;
+}
+
+.card-one > div:hover{
+    font-weight: bold;
+    border-right: 3px solid orange;
+}
+
+.card-three{
+    width: 250px;
+    position: fixed;
+    top: calc(18rem-0);
+    right: 4%;
+}
+
+
+.add-btn{
+    position: absolute;
+    transform: translate(50%, 40%);
+    top: 75%;
+    background-color: white;
+    color: green;
+    font-weight: 500;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.add-btn:hover{
+    background-color:white;
+    box-shadow: 2px 2px 5px var(--bs-gray-800);
+    border-color: var(--bs-gray-600);
+}
+
+.symbolVegOrNot > i{
+    padding: 3px;
+    margin-bottom: 0.5rem;
+    font-size: 8px;
+    border: 2px solid;
+}
+.symbolVegOrNot > i[dataVeg = "true"]{
+    color: green;
+    border-color: green;
+}
+
+.symbolVegOrNot > i[dataVeg = "false"]{
+    color: red;
+    border-color: red;
+}

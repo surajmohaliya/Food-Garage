@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>swiggy</title>
+
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="foodProd.css">
+  <script src="foodProd.js" defer></script>
+</head>
+
+<body>
+  <section class="banner_wrapper d-flex align-items-center mb-5">
+    <div class="container m-auto my-2 p-4">
+      <div class="d-flex text-white align-items-center justify-content-evenly ">
+        <div class="restro_img_cont col-lg-3">
+          <img class="restro_img"
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/g1arzw6qd7g9affkmgzk"
+            alt="food photo">
+        </div>
+
+        <div class="ps-lg-5 ps-sm-2 col-lg-6 col-sm-4">
+          <div class="restro_info">
+            <h2>Grand Hotel</h2>
+            <p class="mb-2">Biriyani, Chinese</p>
+            <p class="mb-2">Abids Road, Koti</p>
+          </div>
+          <div class="restro-rating-dtime-cost d-flex">
+            <div class="restro_rating border-end pe-4 me-3">
+              <div>
+                <i class="fas fa-star"></i>
+                <span>4.1</span>
+              </div>
+              <div>10K+ Ratings</div>
+            </div>
+
+            <div class="restro_dtime border-end pe-4 ps-2 me-3">
+              <div> 36 min </div>
+              <div>Delivery Time</div>
+            </div>
+
+            <div class="restro_rating pe-4 ps-2 me-3">
+              <div>
+                <i class="fas fa-rupee-sign"></i>
+                <span>300</span>
+              </div>
+              <div>Cost for two</div>
+            </div>
+          </div>
+          <div class="search_favourite_container ">
+            <div class="d-flex">
+              <div class="search_container d-flex align-items-center bg-white p-2 m-2 ms-0 shadow-sm">
+                <i class="fas fa-search p-2 pe-3 text-black-50 "></i>
+                <input type="text" class="border-0 form-range" name="dish-search" placeholder="search for dishes">
+              </div>
+      
+              <div class="checkbox_container d-flex align-items-center bg-white p-2 m-2 shadow-sm text-dark">
+                <input type="checkbox" name="veg-nonveg">
+                <label class="px-2" foter="veg-nonveg">Veg-only</label>
+              </div>
+              <div class="checkbox_container d-flex align-items-center bg-white p-2 m-2 shadow-sm">
+                <button class="btn border-0"> <i class="far fa-heart"></i> Favourite </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="restro_offer col-lg-3">
+          <div class="border border-1 border-light position-relative">
+            <span class="offerStyle d-inline-block">OFFER</span>
+            <div class="d-flex ">
+              <i class="fas fa-certificate icon"></i>
+              <div>50% off up to ₹100 | Use code WELCOME50</div>
+            </div>
+            <div class="d-flex ">
+              <i class="fas fa-certificate icon"></i>
+              <div>10% off up to ₹100 on orders above ₹400 + Up to ₹100</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section>
+    <main class="container d-flex">
+      <div class="col-md-3 ">
+        <div class="card-one ">
+          <div>Biriyani</div>
+          <div>Reccommended</div>
+          <div>Starters</div>
+          <div>Indian Breas</div>
+          <div>Main Course </div>
+          <div>Chinese</div>
+          <div>Soups</div>
+          <div>Desserts</div>
+          <div>Beverages</div>
+        </div>
+      </div>
+      <div class="col-md-6 card-two">
+        <recommended>
+          <h4>Reccommended</h4>
+          <div><span>18 Items</span></div>
+          <fooditem class="d-flex justify-content-between py-4 border-bottom border-2 mb-2">
+            <div>
+              <div class="symbolVegOrNot"><i dataVeg = "true" class="fas fa-circle "></i></div>
+              <h5>Idli</h5>
+              <p>
+                <i class="fas fa-rupee-sign"></i> 35
+              </p>
+            </div>
+            <div class="position-relative">
+              <div class="food_img">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ncdfq4pqexrlaozyshgk" class="img-fluid rounded-3 w-75">
+              </div>
+              <button class="btn btn-sm  p-1 px-4 add-btn ">ADD</button>
+            </div>
+          </fooditem>
+        </recommended>
+        <menulist>
+          <fooditem class="d-flex justify-content-between py-4 border-bottom border-2 mb-2">
+            <div>
+              <div class="symbolVegOrNot"><i dataVeg = "true" class="fas fa-circle"></i></div>
+              <h5>Vada</h5>
+              <p>
+                <i class="fas fa-rupee-sign"></i> 79
+              </p>
+            </div>
+            <div class="position-relative">
+              <div class="food_img">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xeouiqve1oqijfvfdpoi" class="img-fluid rounded-3 w-75">
+              </div>
+              <button class="btn btn-sm  p-1 px-4 add-btn ">ADD</button>
+            </div>
+          </fooditem>
+
+          <fooditem class="d-flex justify-content-between py-4 border-bottom border-2 mb-2">
+            <div >
+              <div class="symbolVegOrNot"><i dataVeg = "false" class="fas fa-circle"></i></div>
+              <h5>Classic Tiramisu</h5>
+              <p>
+                <i class="fas fa-rupee-sign"></i> 159
+              </p>
+            </div>
+            <div class="position-relative">
+              <div class="food_img">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/h51lvqoon8lim739y9do" class="img-fluid rounded-3 w-75">
+              </div>
+              <button class="btn btn-sm  p-1 px-4 add-btn ">ADD</button>
+            </div>
+          </fooditem>
+
+          <fooditem class="d-flex justify-content-between py-4 border-bottom border-2 mb-2">
+            <div>
+              <div class="symbolVegOrNot"><i dataVeg = "true" class="fas fa-circle"></i></div>
+              <h5>Dahi Vada ( Plate )</h5>
+              <p>
+                <i class="fas fa-rupee-sign"></i> 99
+              </p>
+            </div>
+            <div class="position-relative">
+              <div class="food_img">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/qtpjusll0mdfsy9vopxo" class="img-fluid rounded-3 w-75">
+              </div>
+              <button class="btn btn-sm  p-1 px-4 add-btn ">ADD</button>
+            </div>
+          </fooditem>
+
+        </menulist>
+      </div>
+      <div class="col-md-3 card-three">
+        <h3>Cart</h3>
+        <div>3 Items</div>
+        <div>
+          <div>bahar special</div>
+          <div>Biriyani Family Pack</div>
+          <div>Subtotal</div>
+        </div>
+        <button class="btn btn-lg btn-danger w-75">Check Out</button>
+
+      </div>
+    </main>
+  </section>
+
+
+</body>
+
+</html>
